@@ -21,14 +21,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 --------------------------------------------------------------
 Para más información acerca de la licencia lea los archivos 
 COPYING.LESSER.txt y COPYING.txt ubicados en el directorio 
-IDE4PLC_LICENSE
---------------------------------------------------------------
 
-***************************************************************************
-*                                                        *
-*      BIENVENIDO AL PROYECTO IDE4PLC. AGRADECEMOS SU INTERÉS.           * 
-*                                                        *
-***************************************************************************
+
+BIENVENIDO AL PROYECTO IDE4PLC. AGRADECEMOS SU INTERÉS.
 
 
 NOTAS DE LA VERSIÓN (release 1.0.0).   
@@ -94,11 +89,8 @@ Información del proyecto IDE4PLC
 
    Sitio web: http://ide4plc.wordpress.com
    E-mail del proyecto IDE4PLC: ide4plc@gmail.com
-
-   Sitio web: http://www.proyecto-ciaa.com.ar/devwiki/doku.php
-            ?id=desarrollo:software-plc
-   Grupo de desarrollo del Soft-PLC del proyecto CIAA:
-   https://groups.google.com/forum/#!forum/ciaa-software-plc
+   Sitio web: http://www.proyecto-ciaa.com.ar/devwiki/doku.php?id=desarrollo:software-plc
+   Grupo de desarrollo del Soft-PLC del proyecto CIAA: https://groups.google.com/forum/#!forum/ciaa-software-plc
    
    
 Acerca del autor
