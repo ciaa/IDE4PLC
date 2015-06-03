@@ -1,0 +1,33 @@
+Modelo:
+	Salida de archivo estándar en IL.
+	Chequeo de tipos y alcance.
+	Chequeo de paralelos en Ladder.
+	Ver salida estandar en XML para LADDER de PLCopen.
+	Parser IL.
+	Parser ST.
+	Simulador.
+
+Vista:
+	Ventana de Configuración de Software.
+	Ventana de Configuración de Hardware.
+	Biblioteca.
+	Syntax highlighting IL.
+	Syntax highlighting ST.
+	Simulador.
+	Que las POU Function Block muestren arriba su variable de instancia.
+	Arreglar el editor de variables, que refresque bien, que permita añadir y borrar variables.
+	Al editar un lector o escritor de variable que no se corra el plugabble de edición al hacer scrool (ver de steppear que siga al morph).				
+	
+Controlador:
+	Ventana de Configuración de Software.
+	Ventana de Configuración de Hardware.
+	Biblioteca.
+	Simulador.
+	Arreglar el editor de variables, que refresque bien, que permita añadir y borrar variables.
+	
+Internacionalización de la GUI:
+	Ingles.
+	Portugués.
+	Francés.
+	Italiano.
+	Otros.
