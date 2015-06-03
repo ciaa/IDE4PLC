@@ -19,15 +19,16 @@ You should have received a copy of the GNU Lesser General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 --------------------------------------------------------------
-Para más información acerca de la licencia lea los archivos 
+Para más información acerca de la licencia lea los archivos
 COPYING.LESSER.txt y COPYING.txt ubicados en el directorio 
 
 
-BIENVENIDO AL PROYECTO IDE4PLC. AGRADECEMOS SU INTERÉS.
+BIENVENIDO AL PROYECTO IDE4PLC. AGRADECEMOS SU INTERÉS
+------------------------------------------------------
 
+NOTAS DE LA VERSIÓN (release 1.0.0)   
+-----------------------------------
 
-NOTAS DE LA VERSIÓN (release 1.0.0).   
-   
    Este software se encuentra desarrollo. La presente versión puede 
    programar la plataforma EDU-CIAA-NXP en lenguaje LADDER DIAGRAM IEC 
    61131-3. 
@@ -86,22 +87,27 @@ Utilización de IDE4PLC
 
 
 Información del proyecto IDE4PLC
+--------------------------------
 
    Sitio web: http://ide4plc.wordpress.com
    E-mail del proyecto IDE4PLC: ide4plc@gmail.com
-   Sitio web: http://www.proyecto-ciaa.com.ar/devwiki/doku.php?id=desarrollo:software-plc
+   Sitios web: 
+      - https://ide4plc.wordpress.com/
+      - http://www.proyecto-ciaa.com.ar/devwiki/doku.php?id=desarrollo:software-plc
    Grupo de desarrollo del Soft-PLC del proyecto CIAA: https://groups.google.com/forum/#!forum/ciaa-software-plc
    
    
 Acerca del autor
+----------------
    
    Ing. Eric Nicolás Pernia.
    Quilmes, Buenos Aires, Argentina.
-   ericpernia@gmail.com
+   (ericpernia@gmail.com)
    Docente-Investigador en la Universidad Nacional de Quilmes (UNQ).
-   Responsable de Responsable de Software-PLC en el Proyecto CIAA.
+   Responsable de Software-PLC en el Proyecto CIAA.
    
 Colaboradores en el port del Firmware de IDE4PLC a la EDU-CIAA-NXP
+------------------------------------------------------------------
 
    Mariano Cerdeiro
    Pablo Ridolfi
