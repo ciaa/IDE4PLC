@@ -11,7 +11,9 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 
 You should have received a copy of the GNU Lesser General Public License along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-	Para más información acerca de la licencia lea los archivos COPYING.LESSER.txt y COPYING.txt ubicados en el directorio IDE4PLC_LICENSE.
+   Para más información acerca de la licencia lea los archivos 
+   COPYING.LESSER.txt y COPYING.txt ubicados en el directorio 
+   IDE4PLC_LICENSE.
 
 
 BIENVENIDO AL PROYECTO IDE4PLC. AGRADECEMOS SU INTERÉS.
@@ -80,24 +82,24 @@ Utilización de IDE4PLC
 Información del proyecto IDE4PLC
 --------------------------------
 
-   Sitios web: 
+   * Sitios web: 
       - https://ide4plc.wordpress.com/
       - http://www.proyecto-ciaa.com.ar/devwiki/doku.php?id=desarrollo:software-plc
-   E-mail del proyecto IDE4PLC: ide4plc@gmail.com
-   Grupo de desarrollo del Soft-PLC del proyecto CIAA: https://groups.google.com/forum/#!forum/ciaa-software-plc
+   * E-mail del proyecto IDE4PLC: ide4plc@gmail.com
+   * Grupo de desarrollo del Soft-PLC del proyecto CIAA: https://groups.google.com/forum/#!forum/ciaa-software-plc
    
    
 Acerca del autor
 ----------------
    
-   Ing. Eric Nicolás Pernia (ericpernia@gmail.com). Quilmes, Buenos Aires, Argentina.
-   Docente-Investigador en la Universidad Nacional de Quilmes (UNQ).
-   Responsable de Software-PLC en el Proyecto CIAA.
+   * Ing. Eric Nicolás Pernia (ericpernia@gmail.com). Quilmes, Buenos Aires, Argentina.
+   * Docente-Investigador en la Universidad Nacional de Quilmes (UNQ).
+   * Responsable de Software-PLC en el Proyecto CIAA.
    
 Colaboradores en el port del Firmware de IDE4PLC a la EDU-CIAA-NXP
 ------------------------------------------------------------------
 
-   Mariano Cerdeiro.
-   Pablo Ridolfi.
-   Juan Cecconi.
-   Leandro Kollenberger.
+   * Mariano Cerdeiro.
+   * Pablo Ridolfi.
+   * Juan Cecconi.
+   * Leandro Kollenberger.
