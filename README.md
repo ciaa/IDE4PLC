@@ -11,9 +11,9 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 
 You should have received a copy of the GNU Lesser General Public License along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-   Para más información acerca de la licencia lea los archivos 
-   COPYING.LESSER.txt y COPYING.txt ubicados en el directorio 
-   IDE4PLC_LICENSE.
+      Para más información acerca de la licencia lea los archivos 
+      COPYING.LESSER.txt y COPYING.txt ubicados en el directorio 
+      IDE4PLC_LICENSE.
 
 
 BIENVENIDO AL PROYECTO IDE4PLC. AGRADECEMOS SU INTERÉS.
