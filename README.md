@@ -19,7 +19,7 @@ You should have received a copy of the GNU Lesser General Public License along w
 BIENVENIDO AL PROYECTO IDE4PLC. AGRADECEMOS SU INTERÉS.
 
 
-NOTAS DE LA VERSIÓN (release 1.0.0)   
+NOTAS DE LA VERSIÓN (release 1.0.1)   
 -----------------------------------
 
    Este software se encuentra desarrollo. La presente versión puede 
