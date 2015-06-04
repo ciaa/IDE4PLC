@@ -44,7 +44,7 @@ Colaborador en diseño del software
 Colaboradores en el port del Firmware de IDE4PLC a la EDU-CIAA-NXP
 ------------------------------------------------------------------
 
-   * Mg. Ing. Mariano Cerdeiro.
+   * Ing. Mariano Cerdeiro.
    * Ing. Pablo Ridolfi.
    * Ing. Juan Cecconi.
    * Leandro Kollenberger.
