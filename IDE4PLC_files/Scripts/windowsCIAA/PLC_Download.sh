@@ -39,8 +39,9 @@
 #/*****************************************************************************/
 #
 export CFLAGS="-Wno-unused-function"
-export BOARD="edu_ciaa_nxp" 
+export BOARD="ciaa_nxp" 
 export PROJECT_PATH="../Firmware/out/gen/plc_application"
 cd ${0%/*}
 cd ../../../../
+make -C $PWD/Firmware
 make -C $PWD/Firmware download

@@ -43,4 +43,4 @@ export BOARD="edu_ciaa_nxp"
 export PROJECT_PATH="../Firmware/out/gen/plc_application"
 cd ${0%/*}
 cd ../../../../
-make -C $PWD/Firmware download
+make -C $PWD/Firmware
