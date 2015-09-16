@@ -36,15 +36,30 @@ Acerca del autor
    * Docente-Investigador en la Universidad Nacional de Quilmes (UNQ).
    * Responsable de Software-PLC en el Proyecto CIAA.
    
+   
 Colaborador en diseño del software
 ----------------------------------
 
    * Dr. Lic. Carlos Lombardi.
-
+   * Sub-responsable de Software-PLC en el Proyecto CIAA.
+   
+   
 Colaboradores en el port del Firmware de IDE4PLC a la EDU-CIAA-NXP
 ------------------------------------------------------------------
 
-   * Ing. Mariano Cerdeiro.
-   * Ing. Pablo Ridolfi.
-   * Ing. Juan Cecconi.
+   * Mariano Cerdeiro. Responsable de Firmware en el Proyecto CIAA.
+   * Pablo Ridolfi. Responsable de Hardware en el Proyecto CIAA.
+   * Juan Cecconi. Sub-responsable de CIAA-IDE.
    * Leandro Kollenberger.
+
+   
+Colaborador en difusión de software
+-----------------------------------
+
+   * Gerardo Sager.
+   
+   
+Colaborador en testing de software y documentación
+--------------------------------------------------
+
+   * Marcelo Chichiri.
