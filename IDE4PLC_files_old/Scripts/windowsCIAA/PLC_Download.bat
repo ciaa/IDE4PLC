@@ -40,6 +40,5 @@
 @ECHO OFF
 SET CIAA_DIR=%~dp0..\..\..\..
 SET CYGWIN_BIN_DIR=%CIAA_DIR%\cygwin\bin
-ECHO "Compilando Aplicacion de PLC..."
-%CYGWIN_BIN_DIR%\mintty.exe %CYGWIN_BIN_DIR%\bash --login -i -c $('cygpath -u "%CIAA_DIR%\IDE4PLC\IDE4PLC_files\Scripts\windows\PLC_Compile.sh")
-:: Saque el --hold error
+ECHO "Compilando y Descargando Aplicacion de PLC..."
+%CYGWIN_BIN_DIR%\mintty.exe --hold error %CYGWIN_BIN_DIR%\bash --login -i -c $('cygpath -u "%CIAA_DIR%\IDE4PLC\IDE4PLC_files\Scripts\windows\PLC_Download.sh")
