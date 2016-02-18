@@ -1,7 +1,7 @@
 IDE4PLC License:
 ----------------
 
-	Copyright © 2012-2015 Eric Nicolás Pernia.
+	Copyright © 2012-2016 Eric Nicolás Pernia.
 
 	This program is free software: you can redistribute it and/or modify
 	it under the terms of the GNU Lesser General Public License as published 
@@ -27,7 +27,7 @@ IDE4PLC License:
 License of fixed files of IDE4PLC Firmware:
 -------------------------------------------
 
-	Copyright © 2012-2015 Eric Nicolás Pernia. All rights reserved.
+	Copyright © 2012-2016 Eric Nicolás Pernia. All rights reserved.
 
 	This file is part of IDE4PLC Firmware. http://ide4plc.wordpress.com
 
@@ -71,5 +71,6 @@ Author information
 	
 	Industrial automation and control engineer.
 	Research professor at the National University of Quilmes (UNQ).
+	Professor at the University of Buenos Aires (UBA).
 	
 	e-mail: ericpernia@gmail.com

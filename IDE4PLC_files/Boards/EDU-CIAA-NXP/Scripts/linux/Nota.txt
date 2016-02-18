@@ -1,0 +1,5 @@
+Debe dar permiso de ejecución al script:
+----------------------------------------
+
+cd /home/CIAA/IDE4PLC/PLC_Scripts/linux
+sudo chmod +x PLC_Download.sh
