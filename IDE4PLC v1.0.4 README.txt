@@ -39,8 +39,8 @@ NOTAS DE LA VERSIÓN (release 1.0.4)
    contiene declaradas previamente variables de interfaz de Entradas
    y Salidas Digitales, y algunas variables internas.
    
-   En la CIAA-NXP las Entradas Digitales son E0 a E7 y las Salidas 
-   Digitales corresponden son de S0 a S7.
+   En la CIAA-NXP las Entradas Digitales son I0 a I7 y las Salidas 
+   Digitales corresponden son de Q0 a Q7.
    
    En la EDU-CIAA-NXP las Entradas Digitales son TEC1 a TEC4 y las
    Salidas Digitales corresponden a LEDR, LEDG, LEDB, LED_1, LED_2 
