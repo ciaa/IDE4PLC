@@ -1,0 +1,1 @@
+generateProgramCCode --> en Editor POU --> en IDE4PLC --> buildCProgram --> en Editor POU en IDE4PLC --> downloadProgram --> en Editor POU --> en IDE4PLC --> generateCBuildDownloadProgram --> en Editor POU en IDE4PLC --> cleanCProgram --> en Editor POU en IDE4PLC --> 
