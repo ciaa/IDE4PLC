@@ -41,5 +41,5 @@
 @ECHO OFF
 SET CIAA_DIR=%~dp0..\..\..\..\..\..
 SET CYGWIN_BIN_DIR=%CIAA_DIR%\cygwin\bin
-ECHO "Send command >> make download"
-%CYGWIN_BIN_DIR%\mintty.exe --hold error %CYGWIN_BIN_DIR%\bash --login -i -c $('cygpath -u "%CIAA_DIR%\IDE4PLC\IDE4PLC_files\Boards\EDU-CIAA-NXP\Scripts\windows\PLC_Download.sh")
+ECHO "Send command >> make"
+%CYGWIN_BIN_DIR%\mintty.exe --hold error %CYGWIN_BIN_DIR%\bash --login -i -c $('cygpath -u "%CIAA_DIR%\IDE4PLC\IDE4PLC_files\Boards\CIAA-NXP\Scripts\windows\PLC_Build.sh")

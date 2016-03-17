@@ -3,6 +3,7 @@
 ::/* Copyright 2015 Pablo Ridolfi.                                             */
 ::/* Copyright 2015 Eric Nicolás Pernia.                                       */
 ::/* Copyright 2015 Leandro Kollenberger.                                      */
+::/* Copyright 2016 Eric Nicolás Pernia.                                       */
 ::/* All rights reserved.                                                      */
 ::/*                                                                           */
 ::/* This file is part of IDE4PLC Firmware. http://ide4plc.wordpress.com and   */
@@ -40,5 +41,5 @@
 @ECHO OFF
 SET CIAA_DIR=%~dp0..\..\..\..\..\..
 SET CYGWIN_BIN_DIR=%CIAA_DIR%\cygwin\bin
-ECHO "Compilando y Descargando Aplicacion de PLC a CIAA-NXP..."
-%CYGWIN_BIN_DIR%\mintty.exe --hold error %CYGWIN_BIN_DIR%\bash --login -i -c $('cygpath -u "%CIAA_DIR%\IDE4PLC\IDE4PLC_files\Boards\CIAA-NXP\Scripts\windows\PLC_CompileAndDownload.sh")
+ECHO "Send command >> make"
+%CYGWIN_BIN_DIR%\mintty.exe --hold error %CYGWIN_BIN_DIR%\bash --login -i -c $('cygpath -u "%CIAA_DIR%\IDE4PLC\IDE4PLC_files\Boards\EDU-CIAA-NXP\Scripts\windows\PLC_Build.sh")

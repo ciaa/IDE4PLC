@@ -40,11 +40,8 @@
 #/*****************************************************************************/
 #
 export CFLAGS="-Wno-unused-function"
-export BOARD="edu_ciaa_nxp" 
-export PROJECT_PATH="../Firmware/out/gen/plc_application"
+export BOARD="ciaa_nxp" 
+export PROJECT_PATH="../IDE4PLC/IDE4PLC_user_projects/plc_application"
 cd ${0%/*}
 cd ../../../../../../
-make -C $PWD/Firmware clean
-make -C $PWD/Firmware generate
-make -C $PWD/Firmware
-make -C $PWD/Firmware download
+make -C $PWD/Firmware clean_generate

@@ -4,6 +4,7 @@
 #/* Copyright 2015 Pablo Ridolfi.                                             */
 #/* Copyright 2015 Eric Nicolás Pernia.                                       */
 #/* Copyright 2015 Leandro Kollenberger.                                      */
+#/* Copyright 2016 Eric Nicolás Pernia.                                       */
 #/* All rights reserved.                                                      */
 #/*                                                                           */
 #/* This file is part of IDE4PLC Firmware. http://ide4plc.wordpress.com and   */
@@ -39,8 +40,8 @@
 #/*****************************************************************************/
 #
 export CFLAGS="-Wno-unused-function"
-export BOARD="ciaa_nxp" 
-export PROJECT_PATH="../Firmware/out/gen/plc_application"
+export BOARD="edu_ciaa_nxp" 
+export PROJECT_PATH="../IDE4PLC/IDE4PLC_user_projects/plc_application"
 cd ${0%/*}
 cd ../../../../../../
 make -C $PWD/Firmware

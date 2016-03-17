@@ -44,4 +44,4 @@ export BOARD="edu_ciaa_nxp"
 export PROJECT_PATH="../IDE4PLC/IDE4PLC_user_projects/plc_application"
 cd ${0%/*}
 cd ../../../../../../
-make -C $PWD/Firmware clean_generate
+make -C $PWD/Firmware

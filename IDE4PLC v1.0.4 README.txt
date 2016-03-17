@@ -48,7 +48,7 @@ NOTAS DE LA VERSIÓN (release 1.0.4)
 
 Los objetivos para esta versión de IDE4PLC son:
 
-   * Fecha de release 22/02/2016.
+   * Fecha de release 04/04/2016.
    * Permitir elegir entre ambas placas (EDU-CIAA-NXP y CIAA-NXP).
    * Internacionalización de la GUI, permitiendo cambiar entre 
      Inglés y Español.
@@ -66,33 +66,21 @@ Utilización de IDE4PLC
    Abra IDE4PLC, cree un programa en lenguaje LADDER DIAGRAM mediante 
    el editor de POUs (que se abre desde el icono correspondiente).
    
-   Opcinalmente puede presionar el botón "Generar código C" que 
-   traducirá a lenguaje C el programa Ladder (generando varios 
-   archivos con extensión .C y .H dentro de la carpeta 
-   /Firmware/out/gen/).
-      
-   Conecte la placa a su computadora mediante USB (puerto debug) y  
-   presione el botón "Compilar código y Descargar al dispositivo" en 
-   el Editor de POUs. Este botón realiza las siguientes tareas:
+      - Generar código C:  genera el código C en la carpeta:
+        IDE4PLC/IDE4PLC_user_projects/plc_application.
 
-      1 - Genera el código C correspondiente a la aplicación de 
-	      IDE4PLC en la carpeta /Firmware/out/gen/.
-   
-      2 - Invoca mediante linea de comandos al compilador del Firmware 
-	      de la CIAA e iniciar el proceso de build del proyecto 
-	      "plc_application". De esta manera se obtiene un ejecutable 
-	      compatible con el microcontrolador de la CIAA-NXP y 
-         EDU-CIAA-NXP, LPC4337, para su núcleo Cortex-M4 llamado 
-		  'plc_application.bin'. 
-	   
-      3 - Descarga el ejecutable 'plc_application.bin' a la memoria 
-	      flash de la CIAA-NXP o EDU-CIAA-NXP.
-   
-   NOTA: El botón "Compilar código y Descargar al dispositivo" del 
-   editor de POUs no está disponible en la versión para MAC OS X. 
-   En consecuencia, debe compilar y descargar el código C generado 
-   por IDE4PLC programa desde una consola.
+      - Build: Ejecuta el comando "make" que compila el código C.
 
+      - Download: Ejecuta el comando "make download" que descarga 
+        el ejecutable a la flash del microcontrolador.
+
+      - Generar código C, Build y Download: Ejecuta los 3 pasos 
+        anteriores.
+
+      - Clean: Ejecuta el comando "make clean" que borra los archivos 
+        generados por la compilación de C previa.   
+
+        
 
 Información del proyecto IDE4PLC
 --------------------------------
