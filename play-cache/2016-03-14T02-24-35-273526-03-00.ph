@@ -1,1 +1,0 @@
-NOTA: HACER 4 BOTONES- GENETATE C CODE.- CLEAN C CODE (clean o clean generate, ver).- BUILD C CODE.- DOWNLOAD C CODE.
