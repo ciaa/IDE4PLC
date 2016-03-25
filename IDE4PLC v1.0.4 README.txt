@@ -43,12 +43,12 @@ NOTAS DE LA VERSIÓN (release 1.0.4)
    Digitales corresponden son de Q0 a Q7.
    
    En la EDU-CIAA-NXP las Entradas Digitales son TEC1 a TEC4 y las
-   Salidas Digitales corresponden a LEDR, LEDG, LEDB, LED_1, LED_2 
-   y LED_3.
+   Salidas Digitales corresponden a LEDR, LEDG, LEDB, LED1, LED2 
+   y LED3.
 
 Los objetivos para esta versión de IDE4PLC son:
 
-   * Fecha de release 04/04/2016.
+   * Fecha de release 01/04/2016.
    * Permitir elegir entre ambas placas (EDU-CIAA-NXP y CIAA-NXP).
    * Internacionalización de la GUI, permitiendo cambiar entre 
      Inglés y Español.
@@ -78,7 +78,8 @@ Utilización de IDE4PLC
         anteriores.
 
       - Clean: Ejecuta el comando "make clean" que borra los archivos 
-        generados por la compilación de C previa.   
+        generados por la compilación de C previa. Necesario al cambiar 
+        de placa.
 
         
 
