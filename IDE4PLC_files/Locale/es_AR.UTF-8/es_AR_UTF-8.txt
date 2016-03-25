@@ -1,0 +1,276 @@
+"List Selector"
+
+lang dictionary at: 'List Selector -> Not selected accept' put: 'Debe seleccionar algun elemento'.
+lang dictionary at: 'List Selector -> Select an element' put: 'Seleccionar elemento'.
+lang dictionary at: 'List Selector -> Select' put: 'Seleccionar'.
+lang dictionary at: 'List Selector -> Select help' put: 'Aceptar selección'.
+lang dictionary at: 'List Selector -> Cancel' put: 'Cancelar'.
+lang dictionary at: 'List Selector -> Cancel help' put: 'Cancelar selección'.
+
+"Editor Devices"
+
+lang dictionary at: 'Editor Device -> Title' put: 'Dispositivo'.
+lang dictionary at: 'Editor Device -> Toolbar help -> Choose a device' put: 'Seleccionar un dispositivo'.
+lang dictionary at: 'Editor Device -> Picture' put: 'Imagen'.
+lang dictionary at: 'Editor Device -> Description' put: 'Descripción'.
+
+"Editor POU"
+
+lang dictionary at: 'Editor POU -> Title' put: 'Editor de Unidad de Organización de Programa (POU)'.
+lang dictionary at: 'Editor POU -> Network' put: 'Segmento'.
+
+lang dictionary at: 'Editor POU -> Toolbar help -> POU Type' put: 'Tipo de POU: '.
+
+lang dictionary at: 'Editor POU -> Toolbar help -> VAR' put: 'Abrir editor de declaraciones de variables'.
+
+lang dictionary at: 'Editor POU -> Toolbar help -> Clean C' put: 'Limpiar compilación de código C'.
+lang dictionary at: 'Editor POU -> Toolbar help -> Generate C' put: 'Genearar código C'.
+lang dictionary at: 'Editor POU -> Toolbar help -> Build C' put: 'Compilar código C'.
+lang dictionary at: 'Editor POU -> Toolbar help -> Download' put: 'Descargar programa'.
+lang dictionary at: 'Editor POU -> Toolbar help -> Gen Build Download' put: 'Generar código C, compilar y descargar'.
+
+lang dictionary at: 'Editor POU -> Toolbar help -> Save' put: 'Grabar POU'.
+lang dictionary at: 'Editor POU -> Toolbar help -> Reset' put: 'Eliminar POU'.
+
+lang dictionary at: 'Editor POU -> Toolbar help -> Contact' put: 'Añadir contacto'.
+lang dictionary at: 'Editor POU -> Toolbar help -> Coil C' put: 'Añadir bobina'.
+lang dictionary at: 'Editor POU -> Toolbar help -> Open Branch' put: 'Abrir rama'.
+lang dictionary at: 'Editor POU -> Toolbar help -> Close Branch' put: 'Cerrar rama'.
+lang dictionary at: 'Editor POU -> Toolbar help -> Add Ladder component' put: 'Añadir componente Ladder'.
+lang dictionary at: 'Editor POU -> Toolbar help -> Add Function call' put: 'Añadir llamado a Función'.
+lang dictionary at: 'Editor POU -> Toolbar help -> Add Function Block call' put: 'Añadir llamado a Bloque de Función'.
+lang dictionary at: 'Editor POU -> Toolbar help -> Generate and view Network C code' put: 'Generar y ver código C e IL del segmento'.	
+lang dictionary at: 'Editor POU -> Toolbar help -> Delete' put: 'Eliminar seleccionado'.	
+   
+"Editor POU Var Decls"
+
+lang dictionary at: 'Editor POU Var Decls -> Title' put: 'Editor de Declaraciones de Variables de POU'.
+
+lang dictionary at: 'Editor POU Var Decls -> Toolbar help -> POU Type' put: 'Tipo de POU: '.
+lang dictionary at: 'Editor POU Var Decls -> Toolbar help -> Add' put: 'Añadir declaración de variable'.
+lang dictionary at: 'Editor POU Var Decls -> Toolbar help -> Remove' put: 'Remover declaración de variable'.
+
+lang dictionary at: 'Editor POU Var Decls -> Toolbar -> Add' put: 'Añadir declaración de variable'.
+lang dictionary at: 'Editor POU Var Decls -> Toolbar -> Remove' put: 'Remover declaración de variable'.
+lang dictionary at: 'Editor POU Var Decls -> Toolbar help2 -> Add' put: 'Abre el dialogo para añadir una Declaración de Variable'.
+lang dictionary at: 'Editor POU Var Decls -> Toolbar help2 -> Remove' put: 'Remueve la Declaración de Variable seleccionada'.
+
+lang dictionary at: 'Editor POU Var Decls -> GrowlMorph -> Remove err1' put: 'No selecciono ninguna declaración'.
+lang dictionary at: 'Editor POU Var Decls -> GrowlMorph -> Remove err1 help' put: 'Seleccione una fila'.
+lang dictionary at: 'Editor POU Var Decls -> GrowlMorph -> Remove err2' put: 'No se puede eliminar:'.
+lang dictionary at: 'Editor POU Var Decls -> GrowlMorph -> Remove err2 help' put: ''.
+lang dictionary at: 'Editor POU Var Decls -> GrowlMorph -> Remove err3' put: 'Declaración de variable eliminada'.
+lang dictionary at: 'Editor POU Var Decls -> GrowlMorph -> Remove err3 help' put: ''.
+
+lang dictionary at: 'Editor POU Var Decls -> Expander -> Interface Vars' put: 'Variables de interfaz'.
+lang dictionary at: 'Editor POU Var Decls -> Expander -> Internal and External Vars' put: 'Variables Internas y Externas'.
+
+lang dictionary at: 'Editor POU Var Decls -> Declarations grid -> Category' put: 'Categoría'.
+lang dictionary at: 'Editor POU Var Decls -> Declarations grid -> Name' put: 'Nombre'.
+lang dictionary at: 'Editor POU Var Decls -> Declarations grid -> Datatype' put: 'Tipo'.
+lang dictionary at: 'Editor POU Var Decls -> Declarations grid -> Initial value' put: 'Valor inicial'.
+lang dictionary at: 'Editor POU Var Decls -> Declarations grid -> Description' put: 'Descripción'.
+
+lang dictionary at: 'Editor POU Var Decls -> Dialog -> Title' put: '        Nueva Declaración de Variable         '.
+lang dictionary at: 'Editor POU Var Decls -> Dialog -> Description' put: 'Descripción:'.
+lang dictionary at: 'Editor POU Var Decls -> Dialog -> Description help' put: 'Escriba una descripción'.
+lang dictionary at: 'Editor POU Var Decls -> Dialog -> Address' put: 'Dirección:'.
+lang dictionary at: 'Editor POU Var Decls -> Dialog -> Address help' put: 'Escriba la dirección de la variable'.
+lang dictionary at: 'Editor POU Var Decls -> Dialog -> Datatype' put: 'Tipo de datos:'.
+lang dictionary at: 'Editor POU Var Decls -> Dialog -> Datatype help' put: 'Elija un tipo de datos' .
+lang dictionary at: 'Editor POU Var Decls -> Dialog -> Identifier' put: 'Nombre:'.
+lang dictionary at: 'Editor POU Var Decls -> Dialog -> Identifier help' put: 'Escriba un identificador'.
+lang dictionary at: 'Editor POU Var Decls -> Dialog -> Initial Value' put: 'Valor inicial:'.
+lang dictionary at: 'Editor POU Var Decls -> Dialog -> Initial Value help' put: 'Escriba un valor inicial'.
+lang dictionary at: 'Editor POU Var Decls -> Dialog -> Category' put: 'Categoría'.
+lang dictionary at: 'Editor POU Var Decls -> Dialog -> Category help' put: 'Elija una categoría'.
+lang dictionary at: 'Editor POU Var Decls -> Dialog -> id' put: 'nuevaVariable'.
+
+lang dictionary at: 'Editor POU Var Decls -> Ok Button' put: 'Aceptar'.
+lang dictionary at: 'Editor POU Var Decls -> Ok Button help' put: 'Acepta crear nueva declaración de variable con los parámetros elegidos'.
+lang dictionary at: 'Editor POU Var Decls -> Cancel Button' put: 'Cancelar'.
+lang dictionary at: 'Editor POU Var Decls -> Cancel Button help' put: 'Cierra sin hacer ningún cambio'.
+
+lang dictionary at: 'Editor POU Var Decls -> GrowlMorph -> Identifier error -> title' put: 'Identificador no válido'.
+lang dictionary at: 'Editor POU Var Decls -> GrowlMorph -> Identifier error' put: 'Ingrese otro identificador, no puede tener espacios o comenzar en número'.
+lang dictionary at: 'Editor POU Var Decls -> GrowlMorph -> Identifier error 2 -> title' put: 'Identificador de Variable repetido'.
+lang dictionary at: 'Editor POU Var Decls -> GrowlMorph -> Identifier error 2' put: 'Ingrese otro identificador'.
+
+"CIAA FileSystem"
+
+lang dictionary at: 'CIAA FileSystem -> GrowlMorph -> Compilation 1 label' put: 'Compilación exitosa'.
+lang dictionary at: 'CIAA FileSystem -> GrowlMorph -> Compilation 1 contents1' put: 'Se pisó la compilación previa.'.
+lang dictionary at: 'CIAA FileSystem -> GrowlMorph -> Compilation 1 contents2' put: 'Generado en '.
+
+"CIAA Program Declaration"
+
+lang dictionary at: 'CIAA Program Declaration -> Input' put: 'Entrada'.
+lang dictionary at: 'CIAA Program Declaration -> Output' put: 'Salida'.
+lang dictionary at: 'CIAA Program Declaration -> Touchswitch' put: 'Botón'.
+lang dictionary at: 'CIAA Program Declaration -> Red Led' put: 'Led Rojo'.
+lang dictionary at: 'CIAA Program Declaration -> Green Led' put: 'Led Verde'.
+lang dictionary at: 'CIAA Program Declaration -> Blue Led' put: 'Led Azul'.
+
+"Editable Grid"
+
+lang dictionary at: 'Editable Grid -> Category' put: 'Categoría'.
+lang dictionary at: 'Editable Grid -> Name' put: 'Nombre'.
+lang dictionary at: 'Editable Grid -> Datatype' put: 'Tipo'.
+lang dictionary at: 'Editable Grid -> Initial value' put: 'Valor inicial'.
+lang dictionary at: 'Editable Grid -> Description' put: 'Descripción'.
+lang dictionary at: 'Editable Grid -> Address' put: 'Dirección'.
+
+"Desktop icon"
+
+lang dictionary at: 'Desktop icon -> Device' put: 'Dispositivo'.
+lang dictionary at: 'Desktop icon -> Edit POU' put: 'Editar POU'.
+lang dictionary at: 'Desktop icon -> Project' put: 'Proyecto'.
+lang dictionary at: 'Desktop icon -> Library' put: 'Biblioteca'.
+
+"Configuration"
+
+lang dictionary at: 'Configuration -> Software' put: 'Configuración de Software'.
+lang dictionary at: 'Configuration -> Hardware' put: 'Configuración de Hardware'.
+lang dictionary at: 'Resource' put: 'Recurso'.
+
+"Var"
+
+lang dictionary at: 'Var -> Global' put: 'Variables Globales'.
+lang dictionary at: 'Var -> Access' put: 'Variables de Acceso'.
+lang dictionary at: 'Var -> Config' put: 'Variable de Configuración'.
+lang dictionary at: 'Var -> Resource' put: 'Variables de recurso'.
+lang dictionary at: 'Var -> Physical Address' put: 'Direcciones físicas'.
+
+"Task"
+
+lang dictionary at: 'Task' put: 'Tarea'.
+lang dictionary at: 'Task -> single' put: 'Simple'.
+lang dictionary at: 'Task -> interval' put: 'Intervalo'.
+lang dictionary at: 'Task -> priority' put: 'Prioridad'.
+lang dictionary at: 'Task -> task->instance' put: 'Asociar tarea con instancia'.
+
+"POU"
+
+lang dictionary at: 'POU -> Body' put: 'Cuerpo'.
+lang dictionary at: 'POU -> Declarations' put: 'Declaraciones'.
+lang dictionary at: 'POU -> Program' put: 'Programa'.
+lang dictionary at: 'POU -> Function Block' put: 'Bloque de Función'.
+lang dictionary at: 'POU -> Function' put: 'Función'.
+
+
+"Board description"
+
+lang dictionary at: 'Board description -> CIAA-NXP' put: '
+
+En la placa
+
+2 puertos micro-USB (uno para aplicaciones y debugging, otro para alimentación).
+6 salidas digitales, 3 mediante un led RGB (LEDR, LEDG y LEDB) y 3 leds con leds normales (LED1 a LED3).
+4 entradas digitales con pulsadores (TEC_1 a TEC_4).
+1 puerto de comunicaciones RS 485 con bornera.
+
+Conector de expansión CON0
+
+3 entradas analógicas (ADC0 a ADC2).
+1 salida analógica (DAC0).
+1 conexión para un teclado de 3×4.
+12 pines genéricos de I/O.
+
+Conector de expansión CON1
+
+1 puerto Ethernet.
+1 puerto CAN.
+1 puerto SPI.
+1 puerto I2C.
+12 pines genéricos de I/O.
+'.
+
+lang dictionary at: 'Board description -> CIAA-NXP' put: '
+
+CPU
+
+Microcontrolador NXP LPC 4337 JDB 144 (Dual-core Cortex-M4 + Cortex-M0 @ 204MHz).
+Memoria SDRAM IS42S16400F. 64Mbit @ 143MHz.
+
+Debugger
+
+USB-to-JTAG FT2232H. Soportado por OpenOCD.
+Memoria EEPROM (utilizada por el FT2232H) AT93C46DN.
+Conector Cortex-Debug para Debugger externo.
+Buffer TXB0108 para desconectar el FT2232H del bus JTAG en caso que se use Debugger externo.
+
+Memorias
+
+Memorias internas del LPC4337.
+SDRAM 128 Mbit (IS42S16800F-7TL o compatible).
+Flash SPI, 32 Mbit, Quad I/O FAST_READ: taza de clock 80 MHz clock o taza efectiva de 40 MB/s. S25FL032P0XMFI011.
+EEPROM I2C 1 Mbit, 400 kHz. Almacenamiento de propósito general, datos de calibración del usuario, etc. 24AA1025.
+EEPROM I2C 2 kbit, 400 kHz. Dirección única de nodo EUI-48 para implementación de MAC-Address. Almacenamiento de 
+propósito general. 24AA025E48.
+
+Entradas digitales
+
+8 entradas digitales optoaisladas.
+Rango de tensión de entrada asegurado 5VDC a 30VDC.
+LED testigo en cada entrada.
+Corriente de entrada máxima asegurada de 10mA, por regulador de corriente constante.
+Protección contra polaridad invertida o tensiones negativas.
+Protección contra transitorios.
+
+Entradas analógicas
+
+4 Entradas analógicas configurables por Corriente/Tensión.
+Lazo de corriente 4-20mA (con rango extendido 0-22mA), impedancia de carga 237 Ohm.
+Control por tensión 0-10V, impedancia de entrada 45 KOhm.
+Protección contra transitorios.
+Protección por filtrado de alta frecuencia.
+Protección por diodos de enclavamiento.
+Amplificador-Buffer, estable y Rail-to-Rail.
+Optimizado para aprovechar el rango del ADC (10 Bits).
+
+Salidas Open-Drain
+
+4 salidas Open-Drain.
+Tensión de Ruptura >24V, Corriente máx. > 0.5A.
+LED testigo en cada salida.
+Protección contra sobre-corriente de fuente.
+Protección contra sobre-corriente en transistor.
+
+Salidas a Relé
+
+4 Salidas con Relé DPDT.
+Seleccionables NA / NC por 4 bornera, mediante switch en PCB.
+Capacidad de corriente para carga resistiva: 0,50A @ 125 VAC, 2A @ 30 VDC.
+LED testigo en cada salida.
+Protección contra sobre-corriente de fuente.
+
+LV-GPIO
+
+14 GPIOs.
+I2C.
+SPI.
+4 Analog.
+Aux USB.
+
+Interfaces de comunicación
+
+Ethernet.
+USB On-The-Go.
+RS232.
+RS485.
+CAN.
+
+Fuente de alimentación
+
+Rango de tensión de entrada típico: 12VDC a 30VDC.
+Fuente de Switching para reducción a 5V-3A.
+Fuente lineal de 3.3V-1A a partir de los 5V.
+Fuente filtrada de 3.3V para conversores ADC.
+Protección de polaridad en la entrada.
+Protección de sobre-corrientes.
+Protección contra transitorios.
+Protección por sobre-temperatura.
+LED testigo de encendido.
+Alimentación de gran parte de sus funcionalidades por USB.
+'.
+  

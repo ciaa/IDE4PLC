@@ -46,7 +46,7 @@ IDE4PLC showDevelopTools.
 IDE4PLC hideDevelopTools.
 
 "---------------------------------------------------"
-"Cargar dependencias de IDE4PLC. Agrega os package no estándares de Pharo que utiliza IDE4PLC. Sólo se utiliza una única vez si IDE4PLC fue cargado a partir de un paquete mcz."
+"Cargar dependencias de IDE4PLC. Agrega los package no estándares de Pharo que utiliza IDE4PLC. Sólo se utiliza una única vez si IDE4PLC fue cargado a partir de un paquete mcz."
 IDE4PLC loadIDE4PLCDependences.
 
 "Inicializar el soft IDE4PLC."
