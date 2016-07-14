@@ -1,0 +1,6 @@
+site_name: Biblioteca para microcontroladores sAPI
+pages:
+- Introducción: index.md
+- Instalación de IDE4PLC en GNU/Linux: install-ide4plc-linux.md
+- Notas de IDE4PLC v1.0.4: IDE4PLC-v1.0.4-README.md
+theme: readthedocs
