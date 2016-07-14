@@ -20,8 +20,8 @@ You should have received a copy of the GNU Lesser General Public License along w
 
 BIENVENIDO AL PROYECTO IDE4PLC. AGRADECEMOS SU INTERÉS.
 
-Información del proyecto IDE4PLC
---------------------------------
+NOTAS DE LA VERSIÓN (release 1.0.4) 
+-----------------------------------
 
    Este software se encuentra desarrollo. La presente versión puede 
    programar las plataformas CIAA-NXP y EDU-CIAA-NXP en lenguaje 

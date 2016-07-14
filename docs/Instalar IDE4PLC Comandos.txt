@@ -1,0 +1,139 @@
+
+- nombreModuloRead();
+- nombreModuloWrite();
+
+Utiliza nombres sencillos al estilo de la biblioteca *Wiring*, pero en lugar del
+concepto de *pin* utiliza el concepto *periférico*, para lograr una API
+unificada, sin importar el número de pines que tenga un cierto perifécico.
+
+## Capas de software
+
+![Imagen "sapi-modulos-capas.png" no encontrada](assets/img/sapi-modulos-capas.png "Módulos y capas de la biblioteca sAPI")
+
+----------------------------------
+
+
+
+"IDE4PLC-EricPernia.59.mcz"
+
+
+http://pharo.org/gnu-linux-installation
+
+http://www.marqueta.org/que-version-de-glibc-tengo/
+
+	locate libc.so.6
+	/lib/i386-linux-gnu/libc.so.6
+	/lib/x86_64-linux-gnu/libc.so.6
+
+-----------------------
+
+Antes de bajarlo desde su web ofical se debe chequear la versión de libc para saber que versión de Pharo para linux bajar. Para esto abrir una terminal y ejecutar:
+
+locate libc.so.6
+
+para saber las rutas de libc, en mi caso:
+
+/lib/i386-linux-gnu/libc.so.6
+/lib/x86_64-linux-gnu/libc.so.6
+
+Luego ejecutar ambas líneas para conocer la versión, en mi caso 2.3, entonces puedo bajar la versión de Pharo "Default GNU/Linux" de:
+
+http://pharo.org/gnu-linux-installation
+
+Luego de bajar Pharo el Pharo adecuado, descomprimir y renombrar la carpeta de "pharo5.0" a "IDE4PLC". Mover esta carpeta "IDE4PLC" a la misma ruta donde esté ubicada la carpeta "Firmware" (si ha seguido los path recomendados en los manuales de nstalación del CIAA-Firmware se encontrará dentro de su carpeta personal en "ciaa-ide").
+
+Chequear permisos de ejecución de Pharo. Verificar que el script de bash "pharo" dentro de la carpeta "IDE4PLC" tenga el permiso de ejecución.
+
+Probar que se abra Pharo. Abrir una terminal, ir a la carpeta "IDE4PLC" y ejecutar:
+
+./pharo
+
+
+----------------------
+
+Clonar el repositorio de IDE4PLC. Abrir una terminal, ir a lacarpeta deseada e ingresar:
+
+git clone https://github.com/ciaa/IDE4PLC.git
+
+Copie los archivos del repositorio dentro de la carpeta shared.
+
+pharo5.0/shared
+
+Reemplazar los íconos en:
+
+pharo5.0/icons
+
+por los archivos "Pharo.ico" y "Pharo.png" del repositorio.
+
+Abrir Pharo y cargar el software IDE4PLC:
+
+Cerrar la ventana titulada "Wellcome to Pharo 5.0".
+
+Presione el click izquierdo del mouse en cualquier espacio vacío para abrir el menú World, elija la opción "Monticello Browser".
+
+En la lista de la derecha seleccione la carpeta package-cache y presione el botón "Open".
+
+Seleccione en la nueva lista de la derecha el último package .mcz disponible de IDE4PLC, (actualmente "IDE4PLC-EricPernia.62.mcz") y presione el botón "Load". Este proceso puede tardar varios minutos ya que carga a la imagen de Pharo todo el código fuente de las clases que componen IDE4PLC y compila cada uno de los métodos logrando que estén disponibles para su ejecución en el sistema. Espere a que termine, cuando esto suceda podra presionar en cualquier parte y verá el menú World, mientras ejecuta este paso Pharo se encontrará bloqueado y no mostrará dicho menú.
+
+Puede comprobar la carga del package IDE4PLC en el "System Browser".
+
+Abra el menu World, opción "Playground" para abrir una ventana donde ejecutar código smalltalk (en vesriones anteriores a Pharo 4 utilice un "Workspace"). 
+
+Ejecute (seleccione la línea y presione "alt + d"):
+
+IDE4PLC loadIDE4PLCDependences.
+
+Esto carga todas clas clases desarrolladas por terceros que utiliza IDE4PLC pero no vienen en la imagen de Pharo. Actualmente carga los package "PetitParser" y "OSProcess".
+
+Luego ejecutar:
+
+IDE4PLC initializeIDE4PLC.
+
+Para cargar el software IDE4PLC.
+
+Solicitará ingresar Nombre y apellido par futuros cambios a la imagen de Pharo. Ingrese con formato "NombreApellido" sin espacios y ambos comenzando en mayúsculas.
+
+
+-----------------------
+
+Abrir un workspace para cargar los comandos básicos. En el Playground ejecutar:
+
+Workspace open.
+
+Copiar el contenido de IDE4PLC.st (se abre con cualquier editor de texto) al workspace.
+
+Ejecutar: 
+
+IDE4PLC linux.
+
+
+"Modo desarrollador."
+IDE4PLC showDevelopTools.
+
+"Modo usuario."
+IDE4PLC hideDevelopTools.
+
+Vamos a hacer un programa de prueba:
+
+   |
+   |    TEC1                   LEDB
+   |----| |--------------------(  )----|
+   |
+   |
+
+Los botones Build, Clean y Download están desactivados en Linux por lo que se deberán ejecutar manualmente en la terminal modificando el archivo makefile.mine con:
+
+cd ciaa-ide/Firmware
+nano Makefile.mine
+
+PROJECT_PATH ?= ../IDE4PLC/shared/IDE4PLC_user_projects/plc_application
+
+Luego:
+
+make clean
+make generate
+make
+make download
+
+
+¡Disfrute la última versión!
