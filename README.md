@@ -18,6 +18,7 @@ You should have received a copy of the GNU Lesser General Public License along w
 
 BIENVENIDO AL PROYECTO IDE4PLC. AGRADECEMOS SU INTERÉS.
 
+![Imagen "IDE4PLCv1-0-4.png" no encontrada](docs/assets/img/IDE4PLCv1-0-4.png "IDE4PLC v1.0.4")
 
 Información del proyecto IDE4PLC
 --------------------------------

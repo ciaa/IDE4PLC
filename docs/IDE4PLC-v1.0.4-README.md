@@ -23,6 +23,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 BIENVENIDO AL PROYECTO IDE4PLC. AGRADECEMOS SU INTERÉS.
 
+![Imagen "IDE4PLCv1-0-4.png" no encontrada](assets/img/IDE4PLCv1-0-4.png "IDE4PLC v1.0.4")
 
 NOTAS DE LA VERSIÓN (release 1.0.4) 
 -----------------------------------
