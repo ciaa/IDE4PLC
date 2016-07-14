@@ -3,18 +3,15 @@ IDE4PLC
 
 A libre Programming Software for PLC comply with IEC 61131-3.
 
-This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU Lesser General Public License as published 
-by the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
+Copyright 2012-2016 Eric Nicolás Pernia.
 
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU Lesser General Public License for more details.
+![Imagen "IDE4PLCv1-0-4.png" no encontrada](assets/img/IDE4PLCv1-0-4.png "IDE4PLC v1.0.4")
 
-You should have received a copy of the GNU Lesser General Public License
-along with this program.  If not, see <http://www.gnu.org/licenses/>.
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU Lesser General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for more details.
+
+You should have received a copy of the GNU Lesser General Public License along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
       Para más información acerca de la licencia lea los archivos 
       COPYING.LESSER.txt y COPYING.txt ubicados en el directorio 
@@ -23,10 +20,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 BIENVENIDO AL PROYECTO IDE4PLC. AGRADECEMOS SU INTERÉS.
 
-![Imagen "IDE4PLCv1-0-4.png" no encontrada](assets/img/IDE4PLCv1-0-4.png "IDE4PLC v1.0.4")
-
-NOTAS DE LA VERSIÓN (release 1.0.4) 
------------------------------------
+Información del proyecto IDE4PLC
+--------------------------------
 
    Este software se encuentra desarrollo. La presente versión puede 
    programar las plataformas CIAA-NXP y EDU-CIAA-NXP en lenguaje 
