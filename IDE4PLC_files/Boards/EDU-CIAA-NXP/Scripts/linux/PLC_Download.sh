@@ -39,7 +39,7 @@
 #/*                                                                           */
 #/*****************************************************************************/
 #
-export PATH=$HOME/ciaa-ide/gcc-arm-none-eabi-4_9-2015q1/bin:$PATH
+export PATH=$PATH:$HOME/ciaa-ide/gcc-arm-none-eabi-4_9-2015q1/bin:$HOME/ciaa-ide/openocd-0.9.0/src
 export CFLAGS="-Wno-unused-function"
 export BOARD="edu_ciaa_nxp" 
 export PROJECT_PATH="../IDE4PLC/shared/IDE4PLC_user_projects/plc_application"
