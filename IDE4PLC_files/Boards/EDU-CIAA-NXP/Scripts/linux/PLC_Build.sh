@@ -45,4 +45,4 @@ export BOARD="edu_ciaa_nxp"
 export PROJECT_PATH="../IDE4PLC/shared/IDE4PLC_user_projects/plc_application"
 cd ${0%/*}
 cd ../../../../../../../
-make -C $PWD/Firmware download
+make -C $PWD/Firmware

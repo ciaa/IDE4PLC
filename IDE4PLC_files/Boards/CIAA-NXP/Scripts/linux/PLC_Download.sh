@@ -4,6 +4,7 @@
 #/* Copyright 2015 Pablo Ridolfi.                                             */
 #/* Copyright 2015 Eric Nicolás Pernia.                                       */
 #/* Copyright 2015 Leandro Kollenberger.                                      */
+#/* Copyright 2016 Eric Nicolás Pernia.                                       */
 #/* All rights reserved.                                                      */
 #/*                                                                           */
 #/* This file is part of IDE4PLC Firmware. http://ide4plc.wordpress.com and   */
@@ -38,10 +39,10 @@
 #/*                                                                           */
 #/*****************************************************************************/
 #
-cd ../Firmware/
-export CFLAGS="-Wno-unused-function"
 export PATH=$HOME/ciaa-ide/gcc-arm-none-eabi-4_9-2015q1/bin:$PATH
+export CFLAGS="-Wno-unused-function"
 export BOARD="ciaa_nxp" 
-export PROJECT_PATH="out/gen/plc_application"
-make -C $HOME/ciaa-ide/Firmware
-make -C $HOME/ciaa-ide/Firmware download
+export PROJECT_PATH="../IDE4PLC/shared/IDE4PLC_user_projects/plc_application"
+cd ${0%/*}
+cd ../../../../../../../
+make -C $PWD/Firmware download
