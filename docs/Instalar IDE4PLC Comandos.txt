@@ -40,7 +40,7 @@ Luego ejecutar ambas líneas para conocer la versión, en mi caso 2.3, entonces 
 
 http://pharo.org/gnu-linux-installation
 
-Luego de bajar Pharo el Pharo adecuado, descomprimir y renombrar la carpeta de "pharo5.0" a "IDE4PLC". Mover esta carpeta "IDE4PLC" a la misma ruta donde esté ubicada la carpeta "Firmware" (si ha seguido los path recomendados en los manuales de nstalación del CIAA-Firmware se encontrará dentro de su carpeta personal en "ciaa-ide").
+Luego de descargar el Pharo adecuado, descomprimir y renombrar la carpeta de "pharo5.0" a "IDE4PLC". Mover esta carpeta "IDE4PLC" a la misma ruta donde esté ubicada la carpeta "Firmware" (si ha seguido los path recomendados en los manuales de nstalación del CIAA-Firmware se encontrará dentro de su carpeta personal en "ciaa-ide").
 
 Chequear permisos de ejecución de Pharo. Verificar que el script de bash "pharo" dentro de la carpeta "IDE4PLC" tenga el permiso de ejecución.
 

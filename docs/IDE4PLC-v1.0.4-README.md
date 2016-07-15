@@ -44,7 +44,7 @@ NOTAS DE LA VERSIÓN (release 1.0.4)
 
 Los objetivos para esta versión de IDE4PLC son:
 
-   * Fecha de release 01/04/2016.
+   * Fecha de release 10/08/2016.
    * Permitir elegir entre ambas placas (EDU-CIAA-NXP y CIAA-NXP).
    * Internacionalización de la GUI, permitiendo cambiar entre 
      Inglés y Español.
