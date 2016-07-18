@@ -45,7 +45,7 @@ De esta manera, en este caso particular (Ubuntu 16.04) se debe bajar la versión
 
 ![Imagen "02-bajarPharoParaLinux.png" no encontrada](assets/img/02-bajarPharoParaLinux.png "Descargar Pharo para GNU/Linux")
 
-Luego de descargar el Pharo adecuado, se debe descomprimir quedandola carpeta *pharo5.0*.
+Luego de descargar el Pharo adecuado, se debe descomprimir quedandola carpeta "pharo5.0".
 
 ![Imagen "04-DescomprimirPharo.png" no encontrada](assets/img/04-DescomprimirPharo.png "Descomprimir Pharo")
 
@@ -55,7 +55,7 @@ Chequear permisos de ejecución de Pharo. Verificar que el script de bash *pharo
 
 ## Probar que Pharo funcione
 
-Abrir una terminal, ir a la carpeta *IDE4PLC* y ejecutar:
+Abrir una terminal, ir a la carpeta "pharo5.0" y ejecutar:
 
 ```
 ./pharo
@@ -69,7 +69,7 @@ Si todo está bien debería abrirse el entorno como se muestra a continuación:
 
 ## Descargar IDE4PLC desde Github
 
-Clonar el repositorio de github de IDE4PLC. Abrir una terminal y ejecutar:
+Para clonar el repositorio de github de IDE4PLC abrir una terminal y ejecutar:
 
 ```
 git clone https://github.com/ciaa/IDE4PLC.git
@@ -85,7 +85,7 @@ Este repositorio contiene los achivos:
 
 ## Integrar IDE4PLC en Pharo
 
-Copie los archivos del repositorio dentro de la carpeta:
+Debe copiar el contenido de la carpeta "IDE4PLC" (los archivos del repositorio) dentro de la carpeta "shared":
 
 ```
 pharo5.0/shared
@@ -195,7 +195,7 @@ Mover esta carpeta *IDE4PLC* a la misma ruta donde esté ubicada la carpeta *Fir
 
 De esta manera las carpetas "IDE4PLC" y "Firmware" se encontrarán ambas en "ciaa-ide".
 
-Este paso es necesario para que IDE4PLC pueda acceder al compilador y Firmware.
+**Este paso es necesario para que IDE4PLC pueda acceder al compilador y Firmware. Si no se realiza, el software no podrá compilar los archivos C generados, ni descargarlos a la CIAA.**
 
 
 
