@@ -5,7 +5,7 @@ A libre Programming Software for PLC comply with IEC 61131-3.
 
 Copyright 2012-2016 Eric Nicolás Pernia.
 
-![Imagen "IDE4PLCv1-0-4.png" no encontrada](docs/assets/img/IDE4PLCv1-0-4.png "IDE4PLC v1.0.4")
+![Imagen "IDE4PLCv1-0-5.png" no encontrada](docs/assets/img/IDE4PLCv1-0-4.png "IDE4PLC v1.0.5")
 
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU Lesser General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
@@ -24,7 +24,7 @@ Información del proyecto IDE4PLC
 --------------------------------
 
    * Sitios web: 
-      - https://ide4plc.wordpress.com/
+      - https://ide4plc.org/
       - http://www.proyecto-ciaa.com.ar/devwiki/doku.php?id=desarrollo:software-plc
    * E-mail del proyecto IDE4PLC: ide4plc@gmail.com
    * Grupo de desarrollo del Soft-PLC del proyecto CIAA: https://groups.google.com/forum/#!forum/ciaa-software-plc
@@ -38,8 +38,8 @@ Acerca del autor
    * Responsable de Software-PLC en el Proyecto CIAA.
    
    
-Colaborador en diseño del software
-----------------------------------
+Colaborador en diseño del software y codificación
+-------------------------------------------------
 
    * Dr. Lic. Carlos Lombardi.
    * Sub-responsable de Software-PLC en el Proyecto CIAA.
@@ -54,10 +54,11 @@ Colaboradores en el port del Firmware de IDE4PLC a la EDU-CIAA-NXP
    * Leandro Kollenberger.
 
    
-Colaborador en difusión de software
------------------------------------
+Colaborador en difusión de software y testing
+---------------------------------------------
 
    * Gerardo Sager.
+   * María de los Angeles Gómez López.
    
    
 Colaborador en testing de software y documentación

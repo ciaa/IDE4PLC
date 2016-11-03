@@ -5,7 +5,7 @@ A libre Programming Software for PLC comply with IEC 61131-3.
 
 Copyright 2012-2016 Eric Nicolás Pernia.
 
-![Imagen "IDE4PLCv1-0-4.png" no encontrada](assets/img/IDE4PLCv1-0-4.png "IDE4PLC v1.0.4")
+![Imagen "IDE4PLCv1-0-5.png" no encontrada](assets/img/IDE4PLCv1-0-4.png "IDE4PLC v1.0.5")
 
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU Lesser General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
@@ -20,7 +20,7 @@ You should have received a copy of the GNU Lesser General Public License along w
 
 BIENVENIDO AL PROYECTO IDE4PLC. AGRADECEMOS SU INTERÉS.
 
-NOTAS DE LA VERSIÓN (release 1.0.4) 
+NOTAS DE LA VERSIÓN (release 1.0.5) 
 -----------------------------------
 
    Este software se encuentra desarrollo. La presente versión puede 
@@ -44,7 +44,7 @@ NOTAS DE LA VERSIÓN (release 1.0.4)
 
 Los objetivos para esta versión de IDE4PLC son:
 
-   * Fecha de release 10/08/2016.
+   * Fecha de release 18/12/2016.
    * Permitir elegir entre ambas placas (EDU-CIAA-NXP y CIAA-NXP).
    * Internacionalización de la GUI, permitiendo cambiar entre 
      Inglés y Español.
@@ -53,8 +53,8 @@ Los objetivos para esta versión de IDE4PLC son:
 
    Para abrirlo debe ejecutar el entorno Pharo-Smalltak:
 
-   - Mac: abrir Pharo3.0.app
-   - Linux: abrir Pharo3.0.sh
+   - Mac: abrir Pharo5.0.app
+   - Linux: abrir Pharo5.0.sh
    - Windows: abrir Pharo.exe
    
 Utilización de IDE4PLC
@@ -83,26 +83,22 @@ Información del proyecto IDE4PLC
 --------------------------------
 
    * Sitios web: 
-      - http://ide4plc.org/
-      - https://ide4plc.wordpress.com/
+      - https://ide4plc.org/
       - http://www.proyecto-ciaa.com.ar/devwiki/doku.php?id=desarrollo:software-plc
    * E-mail del proyecto IDE4PLC: ide4plc@gmail.com
-   * Grupo de desarrollo del Soft-PLC del proyecto CIAA: 
-        https://groups.google.com/forum/#!forum/ciaa-software-plc
+   * Grupo de desarrollo del Soft-PLC del proyecto CIAA: https://groups.google.com/forum/#!forum/ciaa-software-plc
    
    
 Acerca del autor
 ----------------
    
-   * Ing. Eric Nicolás Pernia (ericpernia@gmail.com). 
-   * Quilmes, Buenos Aires, Argentina.
+   * Ing. Eric Nicolás Pernia (ericpernia@gmail.com). Quilmes, Buenos Aires, Argentina.
    * Docente-Investigador en la Universidad Nacional de Quilmes (UNQ).
-   * Docente en la Facultad de Ingeniería de Universidad de Buenos Aires (FI-UBA).
    * Responsable de Software-PLC en el Proyecto CIAA.
    
    
-Colaborador en diseño del software
-----------------------------------
+Colaborador en diseño del software y codificación
+-------------------------------------------------
 
    * Dr. Lic. Carlos Lombardi.
    * Sub-responsable de Software-PLC en el Proyecto CIAA.
@@ -111,19 +107,20 @@ Colaborador en diseño del software
 Colaboradores en el port del Firmware de IDE4PLC a la EDU-CIAA-NXP
 ------------------------------------------------------------------
 
-   * Mg. Ing. Mariano Cerdeiro. Responsable de Firmware en el Proyecto CIAA.
-   * Esp. Ing. Pablo Ridolfi. Responsable de Hardware en el Proyecto CIAA.
-   * Ing. Juan Cecconi. Sub-responsable de CIAA-IDE.
+   * Mariano Cerdeiro. Responsable de Firmware en el Proyecto CIAA.
+   * Pablo Ridolfi. Responsable de Hardware en el Proyecto CIAA.
+   * Juan Cecconi. Sub-responsable de CIAA-IDE.
    * Leandro Kollenberger.
 
    
-Colaborador en difusión de software
------------------------------------
+Colaborador en difusión de software y testing
+---------------------------------------------
 
-   * Ing. Gerardo Sager.
+   * Gerardo Sager.
+   * María de los Angeles Gómez López.
    
    
 Colaborador en testing de software y documentación
 --------------------------------------------------
 
-   * Ing. Marcelo Chichiri.
+   * Marcelo Chichiri.

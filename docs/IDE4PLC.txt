@@ -9,7 +9,7 @@ You should have received a copy of the GNU Lesser General Public License along w
 -----------------------------------------------------
 BIENVENIDO AL PROYECTO CIAA e IDE4PLC. 
 AGRADECEMOS SU INTERES.
-Por favor lea el archivo IDE4PLC v1.0.4 README.txt 
+Por favor lea el archivo IDE4PLC v1.0.5 README.txt 
 ---------------------------------------------------'.
 IDE4PLC save. "Grabar imagen de Pharo actual. Alt +d"
 

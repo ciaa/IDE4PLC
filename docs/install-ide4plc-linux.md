@@ -2,7 +2,7 @@
 
 ### Por Ing. Eric Pernia.
 
-![Imagen "IDE4PLCv1-0-4_2.png" no encontrada](assets/img/IDE4PLCv1-0-4_2.png "IDE4PLC v1.0.4")
+![Imagen "IDE4PLCv1-0-5_2.png" no encontrada](assets/img/IDE4PLCv1-0-4_2.png "IDE4PLC v1.0.5")
 
 ## Descargar el Pharo adecuado según la versión de Linux
 
