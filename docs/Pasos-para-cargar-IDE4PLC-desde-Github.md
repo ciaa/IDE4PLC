@@ -1,4 +1,4 @@
-#Pasos para cargar la última versión de  IDE4PLC desde Github a una imagen limpia de Pharo
+# Pasos para cargar la última versión de  IDE4PLC desde Github a una imagen limpia de Pharo
 
 Presione en cualquier espacio vacío para abrir el menú World, elija la opción "Monticello Browser".
 
