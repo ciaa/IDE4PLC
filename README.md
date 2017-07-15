@@ -22,46 +22,46 @@ You should have received a copy of the GNU Lesser General Public License along w
 
 ## Información del proyecto IDE4PLC
 
-   * Sitios web: 
-      - https://ide4plc.org/
-      - http://www.proyecto-ciaa.com.ar/devwiki/doku.php?id=desarrollo:software-plc
-   * E-mail del proyecto IDE4PLC: ide4plc@gmail.com
-   * Grupo de desarrollo del Soft-PLC del proyecto CIAA: https://groups.google.com/forum/#!forum/ciaa-software-plc
+- Sitios web:
+    - https://ide4plc.org/
+    - http://www.proyecto-ciaa.com.ar/devwiki/doku.php?id=desarrollo:software-plc
+- E-mail del proyecto IDE4PLC: ide4plc@gmail.com
+- Grupo de desarrollo del Soft-PLC del proyecto CIAA: https://groups.google.com/forum/#!forum/ciaa-software-plc
    
 ### Acerca del autor
    
-   * Ing. Eric Nicolás Pernia (ericpernia@gmail.com). Quilmes, Buenos Aires, Argentina.
-   * Docente-Investigador en la Universidad Nacional de Quilmes (UNQ).
-   * Responsable de Software-PLC en el Proyecto CIAA.
+- Ing. Eric Nicolás Pernia (ericpernia@gmail.com). Quilmes, Buenos Aires, Argentina.
+- Docente-Investigador en la Universidad Nacional de Quilmes (UNQ).
+- Responsable de Software-PLC en el Proyecto CIAA.
    
 ### Colaborador en diseño del software y codificación
 
-   * Dr. Lic. Carlos Lombardi.
-   * Sub-responsable de Software-PLC en el Proyecto CIAA.
+- Dr. Lic. Carlos Lombardi.
+- Sub-responsable de Software-PLC en el Proyecto CIAA.
    
 ### Colaboradores en el port del Firmware de IDE4PLC a la EDU-CIAA-NXP
 
-   * Mariano Cerdeiro. Responsable de Firmware en el Proyecto CIAA.
-   * Pablo Ridolfi. Responsable de Hardware en el Proyecto CIAA.
-   * Juan Cecconi. Sub-responsable de CIAA-IDE.
-   * Leandro Kollenberger.
+- Mariano Cerdeiro. Responsable de Firmware en el Proyecto CIAA.
+- Pablo Ridolfi. Responsable de Hardware en el Proyecto CIAA.
+- Juan Cecconi. Sub-responsable de CIAA-IDE.
+- Leandro Kollenberger.
 
 ### Colaborador en difusión de software y testing
 
-   * Gerardo Sager.
-   * María de los Angeles Gómez López.
+- Gerardo Sager.
+- María de los Angeles Gómez López.
 
 ### Colaborador en testing de software y documentación
 
-   * Marcelo Chichiri.
+- Marcelo Chichiri.
 
 ## NOTAS DE LA VERSIÓN (release 1.0.5) 
 
-   * Fecha de release 15/07/2017.
-   * Sistemas Operativos compatibles: Windows, GNU/Linux x86 y GNU/Linux x64.
-   * Soporta de paltaformas: CIAA-NXP y EDU-CIAA-NXP.
-   * Se agregó detección de tipos de datos e indicación de errores.
-   * Internacionalización de la GUI, permitiendo cambiar entre Inglés y Español.
+- Fecha de release 15/07/2017.
+- Sistemas Operativos compatibles: Windows, GNU/Linux x86 y GNU/Linux x64.
+- Soporta de paltaformas: CIAA-NXP y EDU-CIAA-NXP.
+- Se agregó detección de tipos de datos e indicación de errores.
+- Internacionalización de la GUI, permitiendo cambiar entre Inglés y Español.
 
 Este software se encuentra desarrollo. La presente versión puede 
 programar las plataformas CIAA-NXP y EDU-CIAA-NXP en lenguaje 
@@ -85,27 +85,23 @@ y LED3. No soporta entradas o salidas analógicas.
 
 ### ¿Cómo abrir el IDE4PLC?
 
-   Para abrirlo debe ejecutar el entorno Pharo-Smalltak:
+Para abrirlo debe ejecutar el entorno Pharo-Smalltak:
 
-   - Linux: ./ide4plc
-   - Windows: abrir Pharo.exe
+- Linux: Abrir una terminal y ejecutar ./ide4plc
+- Windows: abrir el ejecutable Pharo.exe
    
 ### Utilización de IDE4PLC
 
-   Abra IDE4PLC, cree un programa en lenguaje LADDER DIAGRAM mediante 
-   el editor de POUs (que se abre desde el icono correspondiente).
-   
-      - Generar código C:  genera el código C en la carpeta:
-        IDE4PLC/IDE4PLC_user_projects/plc_application.
+Abra IDE4PLC, cree un programa en lenguaje LADDER DIAGRAM mediante 
+el editor de POUs (que se abre desde el icono correspondiente).
 
-      - Build: Ejecuta el comando "make" que compila el código C.
-
-      - Download: Ejecuta el comando "make download" que descarga 
-        el ejecutable a la flash del microcontrolador.
-
-      - Generar código C, Build y Download: Ejecuta los 3 pasos 
-        anteriores.
-
-      - Clean: Ejecuta el comando "make clean" que borra los archivos 
-        generados por la compilación de C previa. Necesario al cambiar 
-        de placa.
+- **Generar código C**: genera el código C en la carpeta:
+  IDE4PLC/IDE4PLC_user_projects/plc_application.
+- **Build**: Ejecuta el comando "make" que compila el código C.
+- **Download**: Ejecuta el comando "make download" que descarga 
+  el ejecutable a la flash del microcontrolador.
+- **Generar código C, Build y Download**: Ejecuta los 3 pasos 
+  anteriores.
+- **Clean**: Ejecuta el comando "make clean" que borra los archivos 
+  generados por la compilación de C previa. Necesario al cambiar 
+  de placa.
