@@ -4,7 +4,7 @@ A libre Programming Software for PLC comply with IEC 61131-3.
 
 ![Imagen "IDE4PLCv1-0-5.png" no encontrada](docs/assets/img/IDE4PLCv1-0-4.png "IDE4PLC v1.0.5")
 
-## LICENSE
+## License
 
 Copyright 2012-2017 Eric Nicolás Pernia.
 
@@ -55,7 +55,7 @@ You should have received a copy of the GNU Lesser General Public License along w
 
 - Marcelo Chichiri.
 
-## NOTAS DE LA VERSIÓN (release 1.0.5) 
+## Notass de la release actual, 1.0.5
 
 - Fecha de release 15/07/2017.
 - Sistemas Operativos compatibles: Windows, GNU/Linux x86 y GNU/Linux x64.
