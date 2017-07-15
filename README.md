@@ -2,7 +2,7 @@
 
 A libre Programming Software for PLC comply with IEC 61131-3.
 
-Copyright 2012-2016 Eric Nicolás Pernia.
+Copyright 2012-2017 Eric Nicolás Pernia.
 
 ![Imagen "IDE4PLCv1-0-5.png" no encontrada](docs/assets/img/IDE4PLCv1-0-4.png "IDE4PLC v1.0.5")
 
