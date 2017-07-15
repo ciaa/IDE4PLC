@@ -2,9 +2,11 @@
 
 A libre Programming Software for PLC comply with IEC 61131-3.
 
-Copyright 2012-2017 Eric Nicolás Pernia.
-
 ![Imagen "IDE4PLCv1-0-5.png" no encontrada](docs/assets/img/IDE4PLCv1-0-4.png "IDE4PLC v1.0.5")
+
+## LICENSE
+
+Copyright 2012-2017 Eric Nicolás Pernia.
 
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU Lesser General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
@@ -17,8 +19,6 @@ You should have received a copy of the GNU Lesser General Public License along w
   COPYING.LESSER.txt y COPYING.txt ubicados en el directorio 
   IDE4PLC_LICENSE.
 ```
-
-BIENVENIDO AL PROYECTO IDE4PLC. AGRADECEMOS SU INTERÉS.      
 
 ## Información del proyecto IDE4PLC
 
