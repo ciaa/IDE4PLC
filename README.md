@@ -2,7 +2,7 @@
 
 A libre Programming Software for PLC comply with IEC 61131-3.
 
-![Imagen "IDE4PLCv1-0-5.png" no encontrada](assets/img/IDE4PLCv1-0-4.png "IDE4PLC v1.0.5")
+![Imagen "IDE4PLCv1-0-5.png" no encontrada](docs/assets/img/IDE4PLCv1-0-4.png "IDE4PLC v1.0.5")
 
 ## License
 
