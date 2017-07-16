@@ -83,7 +83,7 @@ Please read "docs/ide4plc-install_en.md" or "docs/ide4plc-install_es.md".
 To open it you must run the Pharo-Smalltak environment:
 
 - Linux: Open a terminal and run ./ide4plc
-- Windows: Open executale file Pharo.exe
+- Windows: Open executale file ide4plc.exe
    
 ### Using IDE4PLC
   
