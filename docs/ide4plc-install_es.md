@@ -1,56 +1,32 @@
-# IDE4PLC
+# Instalación de IDE4PLC
 
-A libre Programming Software for PLC comply with IEC 61131-3.
+### Por Ing. Eric Pernia.
 
-![Imagen "IDE4PLCv1-0-5.png" no encontrada](assets/img/IDE4PLCv1-0-4.png "IDE4PLC v1.0.5")
+![Imagen "IDE4PLCv1-0-5_2.png" no encontrada](assets/img/IDE4PLCv1-0-4_2.png "IDE4PLC v1.0.5")
 
-## License
+## Windows
 
-Copyright 2012-2017 Eric Nicolás Pernia.
+Descargar e instalar CIAA-IDE Suite (con las opciones por defecto) del siguiente enlace:
 
-This program is free software: you can redistribute it and/or modify it under the terms of the GNU Lesser General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+[Setup_CIAA_IDE_Suite_v1.2.2.zip](https://github.com/ciaa/Software-IDE/releases/download/v1.2.2/Setup_CIAA_IDE_Suite_v1.2.2.zip)
 
-This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for more details.
+Una vez instalado hay que actualizar el driver de FTDI con Zadig para poder bajarle programas a las placas CIAA-NXP y EDU-CIAA-NXP como explica acá:
 
-You should have received a copy of the GNU Lesser General Public License along with this program.  If not, see <http://www.gnu.org/licenses/>.
+http://www.proyecto-ciaa.com.ar/devwiki/doku.php?id=desarrollo:firmware:instalacion_sw#openocd
 
-```
-For more information about the license, read the files
-COPYING.LESSER.txt and COPYING.txt located in the 
-IDE4PLC_LICENSE directory.
-```
+Luego reemplazar las carpetas "Firmware" e "IDE4PLC" en "C:/CIAA" por las versiones de la release que desee utilizar.
 
-## Project information
+Con eso se actualizan las versiones de Firmware e IDE4PLC con respecto a las que trae el instalador "Setup_CIAA_IDE_Suite_v1.2.2.zip".
 
-- Web sites:
-    - https://ide4plc.org/
-    - http://www.proyecto-ciaa.com.ar/devwiki/doku.php?id=desarrollo:software-plc
-- IDE4PLC project E-mail: ide4plc@gmail.com
-- Soft-PLC development group of CIAA project: https://groups.google.com/forum/#!forum/ciaa-software-plc
-   
-### About the author
-   
-- Ing. Eric Nicolás Pernia (ericpernia@gmail.com). Quilmes, Buenos Aires, Argentina.
-- Professor-Researcher at Universidad Nacional de Quilmes (UNQ).
-- Responsible for Software-PLC in CIAA Project.
-   
-### Collaborator in software design and coding
 
-- Dr. Lic. Carlos Lombardi.
-- Sub-responsable for Software-PLC in CIAA Project.
-   
-### Collaborators in the port of the Firmware of IDE4PLC to the EDU-CIAA-NXP
+## Linux
 
-- Mariano Cerdeiro. Responsible for Firmware in CIAA Project.
-- Pablo Ridolfi. Responsible for Hardware in CIAA Project.
-- Juan Cecconi. Sub-responsable for CIAA-IDE in CIAA Project.
-- Leandro Kollenberger.
+Para Linux existen 2 versiones, una para sistemas x86 y otra para x64.
 
-### Collaborators in software diffusion and testing
+Antes de instalar IDE4PLC debe instalar el compilador y debugger, esto puede realizarlo siguiento estas guías segun so distribución:
 
-- Gerardo Sager.
-- María de los Angeles Gómez López.
+- [Instalación de CIAA Firmware en Linux Ubuntu](http://www.proyecto-ciaa.com.ar/devwiki/doku.php?id=docu:fw:bm:ide:install_linux). Realizar los 13 pasos de "Configuración de las herramientas por línea de comandos".
+- [Instalación de CIAA Firmware en Linux Debian](http://www.proyecto-ciaa.com.ar/devwiki/doku.php?id=docu:fw:bm:ide:install_linux_debian). Realizar los 13 pasos de "Configuración de las herramientas por línea de comandos".
+- [Instalación de CIAA Firmware en Linux Huayra](https://2mp.conae.gov.ar/attachments/article/1313/SAE-MAN-0002-D%20-%20Manual%20instalacion%20IDE%20y%20compilacion.pdf). Realizar todos los pasos de la sección 1.2 "Instalación en Linux".
 
-### Collaborator in software testing and documentation
-
-- Marcelo Chichiri.
+Luego reemplazar las carpetas "Firmware" e "IDE4PLC" en "$HOME/ciaa-ide/" por las versiones de la release que desee utilizar.
