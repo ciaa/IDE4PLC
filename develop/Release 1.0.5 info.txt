@@ -1,0 +1,9 @@
+1.0.5 release files:
+
+IDE4PLC_v1.0.5_Win_x86-x64.zip
+IDE4PLC_v1.0.5_Linux_x64.zip
+IDE4PLC_v1.0.5_Linux_x86.zip
+
+1.0.5 site:
+
+https://github.com/ciaa/IDE4PLC/releases/tag/v1.05

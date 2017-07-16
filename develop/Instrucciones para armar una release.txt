@@ -1,0 +1,32 @@
+Descargar Pharo para windows y Linux.
+
+Ingresar a la raiz de la carpeta de "Pharo xxx".
+
+Renombrar "README.txt" a "Pharo Readme.txt".
+
+Windows: renombrar "Pharo.exe" a "ide4plc.exe".
+
+Linux: renombrar "Pharo" a "ide4plc".
+
+Modificar y copiar el readme de IDE4PLC "README.md".
+
+Windows: copiar las carpetas "IDE4PLC_files", "IDE4PLC_LICENSE" e "IDE4PLC_user_projects".
+
+Windows: En la carpeta "pharo-local" copiar las carpetas "package-cache" y "play-cache".
+
+Linux: copiar dentro de la carpeta "shared" las carpetas "IDE4PLC_files", "IDE4PLC_LICENSE" e "IDE4PLC_user_projects".
+
+Linux: En la carpeta "shared/pharo-local" copiar las carpetas "package-cache" y "play-cache".
+
+Modificar el archivo "README.txt" ubicado en la carpeta "IDE4PLC_LICENSE".
+
+Copiar la carpeta "docs" y los archivos:
+
+- IDE4PLC.lnk
+- IDE4PLC-Guia de uso-v1.0.4-v0.75.pdf
+- mkdocs.yml
+- Pharo.ico
+- Pharo.png
+
+Abrir Pharo (ide4plc) y cargar las clases de IDE4PLC y grabar.
+
